@@ -1,0 +1,5 @@
+---
+title: Updates
+hide:
+    - toc
+---

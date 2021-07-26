@@ -1,0 +1,57 @@
+site_name: Jesus Youth Kozhikode Campus Ministry
+site_url: https://JYCampusCLT.github.io
+site_description: >-
+  Website for Jesus Youth Kozhikode Campus Ministry
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Page tree
+nav:
+  - Home: index.md
+  - Initiatives:
+    - Programmes: initiatives/programmes.md
+    - Acts 29: initiatives/acts29.md
+  - Campuses: campuses.md
+  - Updates: updates.md
+  - Contact Us: contact_us.md
