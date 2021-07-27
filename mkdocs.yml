@@ -1,5 +1,6 @@
 site_name: Jesus Youth Kozhikode Campus Ministry
 site_url: https://JYCampusCLT.github.io
+site_author: Alan Jojo
 site_description: >-
   Website for Jesus Youth Kozhikode Campus Ministry
 
@@ -41,6 +42,7 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.superfences
   - toc:
+      title: Contents
       permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -49,6 +51,9 @@ markdown_extensions:
 # Additional CSS
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - extra.js
 
 # Page tree
 nav:

@@ -3,16 +3,29 @@ title: Contact Us
 hide:
     - navigation
     - toc
+customjs:
+    - http://code.jquery.com/jquery-1.4.2.min.js
 ---
+
+<center>
 
 ## Feel free to contact us on
 
+<br>
+
+<!-- This table is nearly not possible to contruct in  markdown only -->
+
 <table id="contact_table">
+    <tr></tr>
     <tr class="contact_row">
-        <td class="logo" align="center">
+        <td class="logo">
             <table class="logo_name">
                 <tr>
-                    <td align="center"><img src="/assets/gmail.png" alt="Mail" width="45px"></td>
+                    <td>
+                        <a href="" onclick="gmail()">
+                            <img src="/assets/gmail.png" alt="Mail" width="45px">
+                        </a>
+                    </td>
                 </tr>
                 <tr>
                     <td><b>Gmail</b></td>
@@ -24,10 +37,14 @@ hide:
         </td>
     </tr>
     <tr class="contact_row">
-        <td class="logo" align="center">
+        <td class="logo">
             <table class="logo_name">
                 <tr>
-                    <td align="center"><img src="/assets/instagram.png" alt="Instagram" width="45px"></td>
+                    <td>
+                        <a href="" onclick="instagram()">
+                            <img src="/assets/instagram.png" alt="Instagram" width="45px">
+                        </a>
+                    </td>
                 </tr>
                 <tr>
                     <td><b>Instagram</b></td>
@@ -39,10 +56,14 @@ hide:
         </td>
     </tr>
     <tr class="contact_row">
-        <td class="logo" align="center">
+        <td class="logo">
             <table class="logo_name">
                 <tr>
-                    <td align="center"><img src="/assets/youtube.png" alt="Youtube" width="45px"></td>
+                    <td>
+                        <a href="" onclick="youtube()">
+                            <img src="/assets/youtube.png" alt="Youtube" width="45px">
+                        </a>
+                    </td>
                 </tr>
                 <tr>
                     <td><b>Youtube</b></td>
@@ -54,3 +75,5 @@ hide:
         </td>
     </tr>
 </table>
+
+</center>
