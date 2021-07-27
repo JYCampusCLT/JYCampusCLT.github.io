@@ -1,9 +1,96 @@
-#contact_table {
-  margin-left: auto;
-  margin-right: auto;
+.link a {
+  color: darkgreen;
 }
-#contact_table .logo_name {
+.link a:hover {
+  color: blue;
+}
+
+.button_image img {
+  width: 90px;
+}
+.button_image .image_caption {
+  padding-left: 17px;
+}
+
+#contact_table .contact_row .logo .logo_name {
+  border: hidden;
   border-collapse: collapse;
+}
+#contact_table .contact_row .logo .logo_name tr td {
+  text-align: center;
+  padding: 0;
+}
+#contact_table .contact_row .contact_table_details {
+  padding-top: 10%;
+  padding-right: 10px;
+  font-size: 1.2em;
+  word-break: initial;
+}
+#contact_table .contact_row .contact_table_details a {
+  text-decoration: none;
+  color: black;
+}
+#contact_table .contact_row .contact_table_details a:hover {
+  color: blue;
+}
+
+.contact_footer {
+  color: white;
+  float: right;
+  font-size: small;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.contact_footer .name {
+  width: 185px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+@media screen {
+  [data-md-color-scheme=slate] .link a {
+    color: lightgreen;
+  }
+  [data-md-color-scheme=slate] .link a:hover {
+    color: skyblue;
+  }
+  [data-md-color-scheme=slate] #contact_table .contact_table_details a {
+    color: lightblue;
+  }
+  [data-md-color-scheme=slate] #contact_table .contact_table_details a:hover {
+    color: yellow;
+  }
+}
+@media screen and (min-width: 700px) {
+  #contact_table {
+    width: 600px;
+  }
+  #contact_table .contact_row .logo {
+    padding-left: 40px;
+  }
+  #contact_table .contact_row .contact_table_details {
+    width: 75%;
+    padding-left: 80px;
+    padding-top: 7%;
+  }
+
+  .contact_footer {
+    font-size: medium;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contact_footer .name {
+    width: 220px;
+  }
+  .contact_footer .phone {
+    padding-top: 0.7em;
+  }
+
+  .contact_footer_space {
+    height: 0;
+    width: 20px;
+  }
 }
 
 /*# sourceMappingURL=extra.css.map */
