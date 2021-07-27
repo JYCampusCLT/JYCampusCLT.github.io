@@ -11,7 +11,7 @@ customjs:
 
 ## Feel free to contact us on
 
-<br>
+<br class="contact_us_space">
 
 <!-- This table is nearly not possible to contruct in  markdown only -->
 
