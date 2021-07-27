@@ -12,6 +12,10 @@
   padding-left: 17px;
 }
 
+.contact_us_space {
+  display: none;
+}
+
 #contact_table .contact_row .logo .logo_name {
   border: hidden;
   border-collapse: collapse;
@@ -34,19 +38,6 @@
   color: blue;
 }
 
-.contact_footer {
-  color: white;
-  float: right;
-  font-size: small;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-.contact_footer .name {
-  width: 185px;
-  text-align: right;
-  padding-right: 20px;
-}
-
 @media screen {
   [data-md-color-scheme=slate] .link a {
     color: lightgreen;
@@ -62,6 +53,10 @@
   }
 }
 @media screen and (min-width: 700px) {
+  .contact_us_space {
+    display: initial;
+  }
+
   #contact_table {
     width: 600px;
   }
@@ -72,24 +67,6 @@
     width: 75%;
     padding-left: 80px;
     padding-top: 7%;
-  }
-
-  .contact_footer {
-    font-size: medium;
-    padding-left: 30px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .contact_footer .name {
-    width: 220px;
-  }
-  .contact_footer .phone {
-    padding-top: 0.7em;
-  }
-
-  .contact_footer_space {
-    height: 0;
-    width: 20px;
   }
 }
 

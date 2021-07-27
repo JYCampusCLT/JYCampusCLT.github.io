@@ -1,3 +1,5 @@
+/*
+//Removed due to serious performance issues
 window.addEventListener('load',  () => {
     if(window.location.pathname.normalize() === "/contact_us/".normalize()){
         document.getElementsByClassName("md-footer")[0].style.display = "initial";
@@ -5,7 +7,7 @@ window.addEventListener('load',  () => {
     else{
         document.getElementsByClassName("md-footer")[0].style.display = "none";
     }
-});
+});*/
 
 function instagram() {
     if( /Android/i.test(navigator.userAgent ) ) {
