@@ -1,10 +1,119 @@
-#contact_table{
-    margin-left: auto;
-    margin-right: auto;
-    .logo_name{
-        border-collapse: collapse;
+.link{
+    a{
+        color: darkgreen;
     }
-    .contact_table_details{
+    a:hover{
+        color: blue;
+    }
+}
 
+.button_image{
+    img{
+        width: 90px;
+    }
+    .image_caption{
+        padding-left: 17px;
+    }
+}
+
+#contact_table{
+    .contact_row{
+        .logo{
+            .logo_name{
+                border: hidden;
+                border-collapse: collapse;
+                tr{
+                    td{
+                        text-align: center;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        .contact_table_details{
+            padding-top: 10%;
+            padding-right: 10px;
+            font-size: 1.2em;
+            word-break: initial;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: blue;
+            }
+        }
+    }
+}
+
+.contact_footer{
+    color: white;
+    float: right;
+    font-size: small;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    .name{
+        width: 185px;
+        text-align: right;
+        padding-right: 20px;
+    }
+}
+
+// Only use dark mode on screens
+@media screen {
+    // Slate theme, i.e. dark mode
+    [data-md-color-scheme="slate"] {
+        .link{
+            a{
+                color: lightgreen;
+            }
+            a:hover{
+                color: skyblue;
+            }
+        }
+
+        #contact_table{
+            .contact_table_details{
+                a{
+                    color: lightblue;
+                }
+                a:hover{
+                    color: yellow;
+                }
+            }
+        }
+    }
+}
+
+// When width is more than 700px
+@media screen and (min-width: 700px){
+    #contact_table{
+        width: 600px;
+        .contact_row{
+            .logo{
+                padding-left: 40px;
+            }
+            .contact_table_details{
+                width: 75%;
+                padding-left: 80px;
+                padding-top: 7%;
+            }
+        }
+    }
+    .contact_footer{
+        font-size: medium;
+        padding-left: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .name{
+            width: 220px;
+        }
+        .phone{
+            padding-top: 0.7em;
+        }
+    }
+    .contact_footer_space{
+        height: 0;
+        width: 20px;
     }
 }
