@@ -43,6 +43,7 @@ $button-color: rgb(65, 209, 185);
             padding: 2.5px 0 2.5px 5%;
             margin: 0;
             white-space: nowrap;
+            font-size: 0.9em;
             input{
                 cursor: pointer;
             }
@@ -51,7 +52,6 @@ $button-color: rgb(65, 209, 185);
     #college_table_heading{
         text-align: center;
         font-size: 1.2em;
-        padding-top: 0.5em;
     }
     #college_find{
         #college_input_container{
@@ -223,6 +223,9 @@ $button-color: rgb(65, 209, 185);
                 padding-left: auto;
                 display: inline;
             }
+        }
+        #college_table_heading{
+            padding-bottom: 0.5em;;
         }
     }
 }
