@@ -176,7 +176,7 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
             </tr>
             <tr id="college_8" class="college_description">
                 <td colspan="2">
-                    No data
+                    Contact Person: Shino
                 </td>
             </tr>
             <tr class="college_space">
