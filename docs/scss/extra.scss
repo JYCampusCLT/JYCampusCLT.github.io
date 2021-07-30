@@ -1,4 +1,4 @@
-$table-color: rgb(30, 194, 167);
+$table-color: rgb(45, 88, 2);
 $button-color: rgb(65, 209, 185);
 
 // Programmes page
@@ -197,10 +197,9 @@ $button-color: rgb(65, 209, 185);
 
         .colleges{
             #college_find{
-                input{
+                #college_input{
                     color: white;
                     background-color: rgba(46,48,61,255);
-                    border-color: snow;
                 }
             }
         }
