@@ -1,15 +1,120 @@
-.link a {
-  color: darkgreen;
-}
-.link a:hover {
-  color: blue;
-}
-
 .button_image img {
   width: 90px;
 }
 .button_image .image_caption {
   padding-left: 17px;
+}
+
+.colleges {
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.colleges button {
+  cursor: pointer;
+}
+.colleges #college_table_choice {
+  font-size: 0.9em;
+}
+.colleges #college_table_choice #stream_buttons {
+  margin: 0;
+  padding: 5px 0;
+}
+.colleges #college_table_choice #stream_buttons #TASC {
+  padding: 0 5%;
+  display: inline;
+}
+.colleges #college_table_choice #stream_buttons #MEST {
+  padding: 0 5%;
+  display: inline;
+}
+.colleges #college_table_choice #stream_buttons button {
+  padding: 1px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #41d1b9;
+}
+.colleges #college_table_choice #core_team_check {
+  padding: 2.5px 0 2.5px 5%;
+  margin: 0;
+  white-space: nowrap;
+}
+.colleges #college_table_choice #core_team_check input {
+  cursor: pointer;
+}
+.colleges #college_table_heading {
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+}
+.colleges #college_find #college_input_container {
+  display: inline;
+}
+.colleges #college_find #college_input_container #college_input {
+  width: 50%;
+  height: 1.7em;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.colleges #college_find #campus_sort_container {
+  display: inline;
+  padding-left: 28%;
+  font: 0.8em sans-serif;
+}
+.colleges #college_find #campus_sort_container button {
+  padding: 2px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #41d1b9;
+}
+.colleges #college_table_container #college_table {
+  border: 2px solid #1ec2a7;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.colleges #college_table_container #college_table td {
+  border: 1px solid #1ec2a7;
+}
+.colleges #college_table_container #college_table .college_name {
+  font-size: 1.2em;
+}
+.colleges #college_table_container #college_table .college_name td {
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+.colleges #college_table_container #college_table .college_name .college_arrow_button {
+  padding-left: 5px;
+  padding-right: 0;
+}
+.colleges #college_table_container #college_table .college_name .college_arrow_button button img {
+  width: 30px;
+}
+.colleges #college_table_container #college_table .college_name .college_arrow_button button .arrow_up {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transition: transform 400ms;
+}
+.colleges #college_table_container #college_table .college_name .college_arrow_button button .arrow_down {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transition: transform 400ms;
+}
+.colleges #college_table_container #college_table .college_description {
+  font-size: 1em;
+}
+.colleges #college_table_container #college_table .college_space td {
+  background-color: #1ec2a7;
+  height: 1.5px;
+  padding: 0;
+}
+
+.link a {
+  color: darkgreen;
+}
+.link a:hover {
+  color: blue;
 }
 
 .contact_us_space {
@@ -50,6 +155,27 @@
   }
   [data-md-color-scheme=slate] #contact_table .contact_table_details a:hover {
     color: yellow;
+  }
+  [data-md-color-scheme=slate] .colleges #college_find input {
+    color: white;
+    background-color: #2e303d;
+    border-color: snow;
+  }
+}
+@media screen and (min-width: 600px) {
+  .colleges #college_table_choice {
+    padding: 10px 0;
+  }
+  .colleges #college_table_choice #stream_buttons {
+    padding: 12px 0;
+    display: inline;
+    border-bottom: 0;
+  }
+  .colleges #college_table_choice #core_team_check {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: auto;
+    display: inline;
   }
 }
 @media screen and (min-width: 700px) {

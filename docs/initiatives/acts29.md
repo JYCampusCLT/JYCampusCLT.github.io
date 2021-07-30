@@ -6,7 +6,7 @@ hide:
 
 #<span style="font-family:Papyrus; font-size:1.6em;">Acts 29</span>
 
-"**Acts 29**" is the one-day programme conducted by Kozhikode Camous ministry every month. We started the programme from January 2021 and by the grace of God have sucessfully been conducting it for the past 7 months.
+"**Acts 29**" is the one-day programme conducted by Kozhikode Campus ministry every month. We started the programme from January 2021 and by the grace of God have sucessfully been conducting it for the past 7 months.
 
 Usually, Acts 29 is conducted on 3<sup>rd</sup> Sunday of every month.
 

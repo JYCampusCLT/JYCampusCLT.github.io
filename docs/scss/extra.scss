@@ -1,12 +1,7 @@
-.link{
-    a{
-        color: darkgreen;
-    }
-    a:hover{
-        color: blue;
-    }
-}
+$table-color: rgb(30, 194, 167);
+$button-color: rgb(65, 209, 185);
 
+// Programmes page
 .button_image{
     img{
         width: 90px;
@@ -16,10 +11,136 @@
     }
 }
 
+// Campuses page
+.colleges{
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    button{
+        cursor: pointer;
+    }
+    #college_table_choice{
+        font-size: 0.9em;
+        #stream_buttons{
+            margin: 0;
+            padding: 5px 0;
+            #TASC{
+                padding: 0 5%;
+                display: inline;
+            }
+            #MEST{
+                padding: 0 5%;
+                display: inline;
+            }
+            button{
+                padding: 1px 5px;
+                border: 1px solid black;
+                border-radius: 5px;
+                background-color: $button-color;
+            }
+        }
+        #core_team_check{
+            padding: 2.5px 0 2.5px 5%;
+            margin: 0;
+            white-space: nowrap;
+            input{
+                cursor: pointer;
+            }
+        }
+    }
+    #college_table_heading{
+        text-align: center;
+        font-size: 1.2em;
+        padding-top: 0.5em;
+    }
+    #college_find{
+        #college_input_container{
+            display: inline;
+            #college_input{
+                width: 50%;
+                height: 1.7em;
+                border: 1px solid black;
+                border-radius: 3px;
+            }
+        }
+        #campus_sort_container{
+            display: inline; 
+            padding-left: 28%;
+            font: 0.8em sans-serif;
+            button{
+                padding: 2px 5px;
+                border: 1px solid black;
+                border-radius: 5px;
+                background-color: $button-color;
+            }
+        }
+    }
+    #college_table_container{
+        #college_table{
+            border: 2px solid $table-color;
+            border-collapse: collapse;
+            table-layout: fixed;
+            td{
+                border: 1px solid $table-color;
+            }
+            .college_name{
+                font-size: 1.2em;
+                td{
+                    border: none;
+                    padding: 5px 10px 5px 10px;
+                }
+                .college_arrow_button{
+                    padding-left: 5px;
+                    padding-right: 0;
+                    button{
+                        img{
+                            width: 30px;
+                        }
+                        .arrow_up{
+                            transform: rotate(-180deg);
+                            -webkit-transform: rotate(-180deg);
+                            -ms-transform: rotate(-180deg);
+                            transition: transform 400ms;
+                        }
+                        .arrow_down{
+                            transform: rotate(0deg);
+                            -webkit-transform: rotate(0deg);
+                            -ms-transform: rotate(0deg);
+                            transition: transform 400ms;
+                        }
+                    }
+                }
+            }
+            .college_description{
+                font-size: 1em;
+            }
+            .college_space{
+                td{
+                    background-color: $table-color;
+                    height: 1.5px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+// Updates page
+.link{
+    a{
+        color: darkgreen;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+
+// Contact Us page
 .contact_us_space{
     display: none;
 }
 
+// Contact Us page
 #contact_table{
     .contact_row{
         .logo{
@@ -71,6 +192,36 @@
                 a:hover{
                     color: yellow;
                 }
+            }
+        }
+
+        .colleges{
+            #college_find{
+                input{
+                    color: white;
+                    background-color: rgba(46,48,61,255);
+                    border-color: snow;
+                }
+            }
+        }
+    }
+}
+
+// When width is more than 600px
+@media screen and (min-width: 600px){
+    .colleges{
+        #college_table_choice{
+            padding: 10px 0;
+            #stream_buttons{
+                padding: 12px 0;
+                display: inline;
+                border-bottom: 0;
+            }
+            #core_team_check{
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: auto;
+                display: inline;
             }
         }
     }
