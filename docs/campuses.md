@@ -1,5 +1,5 @@
 ---
-title: Campuses in CCT Kozhikode
+title: Campuses
 hide:
     - navigation
     - toc
@@ -8,30 +8,24 @@ hide:
 By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram districts where we have students commited to the Jesus Youth movement.
 
 <div class="colleges">
-    <div id="college_table_choice">
-        <div id="stream_buttons">
-            <div id="TASC">
-                <button id="tasc_button" onClick="tasc()" data-text-swap="<s>TASC</s>">
-                TASC
-                </button>
-            </div>
-            <div id="MEST">
-                <button id="mest_button" onClick="mest()" data-text-swap="<s>MEST</s>">
-                MEST
-                </button>
-            </div>
-        </div>
-        <div id="core_team_check">
-            Only show Campuses with Core team
-            <input type="checkbox" id="core_college" name="core_college" onClick="core()" title="Select">
-        </div>
-    </div>
-    <div id="college_table_heading">
-        All Campuses
+    <div id="college_table_heading_container">
+        <a id="college_table_heading" href="#" onClick="core()">
+            All Campuses
+        </a>
     </div>
     <div id="college_find">
         <div id="college_input_container">
-            <input type="text" id="college_input" onkeyup="college_search()" placeholder="Search the table..">
+            <input type="text" id="college_input" onkeyup="college_search()" placeholder="Search..">
+        </div>
+        <div id="TASC">
+            <button id="tasc_button" onClick="tasc()">
+            TASC
+            </button>
+        </div>
+        <div id="MEST">
+            <button id="mest_button" onClick="mest()">
+            MEST
+            </button>
         </div>
         <div id="campus_sort_container">
             <button id="campus_sort" onClick="sort()" data-text-swap="A → Z">
