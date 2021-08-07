@@ -20,12 +20,9 @@ $button-color: rgb(11, 211, 191);
     button{
         cursor: pointer;
     }
-    #college_table_heading_container{
+    #college_table_heading{
         text-align: center;
         font-size: 1.2em;
-        a{
-            color: black;
-        }
     }
     #college_find{
         #college_input_container{
@@ -52,6 +49,7 @@ $button-color: rgb(11, 211, 191);
         }
         #campus_sort_container{
             font-size: 0.8em;
+            padding-top: 0.2em;
             float: right;
         }
     }
@@ -74,9 +72,9 @@ $button-color: rgb(11, 211, 191);
                     padding-left: 5px;
                     padding-right: 0;
                     button{
-                        width: 15px;
+                        width: 20px;
                         img{
-                            width: 15px;
+                            width: 20px;
                         }
                         .arrow_up{
                             transform: rotate(-180deg);
@@ -95,6 +93,22 @@ $button-color: rgb(11, 211, 191);
             }
             .college_description{
                 font-size: 1em;
+                .college_image{
+                    float: left;
+                    max-width: 350px;
+                }
+                .college_details{
+                    float: left;
+                    padding-left: 2em;
+                    p{
+                        margin-top: 0;
+                        margin-bottom: 1em;
+                    }
+                    hr{
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
             }
             .college_space{
                 td{
@@ -107,7 +121,7 @@ $button-color: rgb(11, 211, 191);
     }
 }
 
-// Updates page
+// Campuses page, Updates page
 .link{
     a{
         color: darkgreen;
@@ -178,10 +192,8 @@ $button-color: rgb(11, 211, 191);
         }
 
         .colleges{
-            #college_table_heading_container{
-                #college_table_heading{
-                    color: white;
-                }
+            #college_table_heading{
+                color: white;
             }
             #college_table_container{
                 #college_table{
@@ -211,7 +223,7 @@ $button-color: rgb(11, 211, 191);
 // When width is more than 600px
 @media screen and (min-width: 600px){
     .colleges{
-        #college_table_heading_container{
+        #college_table_heading{
             padding-bottom: 0.5em;
         }
         #college_find{

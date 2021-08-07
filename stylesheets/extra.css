@@ -13,12 +13,9 @@
 .colleges button {
   cursor: pointer;
 }
-.colleges #college_table_heading_container {
+.colleges #college_table_heading {
   text-align: center;
   font-size: 1.2em;
-}
-.colleges #college_table_heading_container a {
-  color: black;
 }
 .colleges #college_find #college_input_container {
   display: inline;
@@ -44,6 +41,7 @@
 }
 .colleges #college_find #campus_sort_container {
   font-size: 0.8em;
+  padding-top: 0.2em;
   float: right;
 }
 .colleges #college_table_container {
@@ -69,10 +67,10 @@
   padding-right: 0;
 }
 .colleges #college_table_container #college_table .college_name .college_arrow_button button {
-  width: 15px;
+  width: 20px;
 }
 .colleges #college_table_container #college_table .college_name .college_arrow_button button img {
-  width: 15px;
+  width: 20px;
 }
 .colleges #college_table_container #college_table .college_name .college_arrow_button button .arrow_up {
   transform: rotate(-180deg);
@@ -88,6 +86,22 @@
 }
 .colleges #college_table_container #college_table .college_description {
   font-size: 1em;
+}
+.colleges #college_table_container #college_table .college_description .college_image {
+  float: left;
+  max-width: 350px;
+}
+.colleges #college_table_container #college_table .college_description .college_details {
+  float: left;
+  padding-left: 2em;
+}
+.colleges #college_table_container #college_table .college_description .college_details p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.colleges #college_table_container #college_table .college_description .college_details hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .colleges #college_table_container #college_table .college_space td {
   background-color: black;
@@ -141,7 +155,7 @@
   [data-md-color-scheme=slate] #contact_table .contact_table_details a:hover {
     color: yellow;
   }
-  [data-md-color-scheme=slate] .colleges #college_table_heading_container #college_table_heading {
+  [data-md-color-scheme=slate] .colleges #college_table_heading {
     color: white;
   }
   [data-md-color-scheme=slate] .colleges #college_table_container #college_table {
@@ -159,7 +173,7 @@
   }
 }
 @media screen and (min-width: 600px) {
-  .colleges #college_table_heading_container {
+  .colleges #college_table_heading {
     padding-bottom: 0.5em;
   }
   .colleges #college_find #campus_sort_container {
