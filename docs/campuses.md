@@ -7,11 +7,9 @@ hide:
 
 By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram districts where we have students commited to the Jesus Youth movement.
 
-<div class="colleges">
-    <div id="college_table_heading_container">
-        <a id="college_table_heading" href="#" onClick="core()">
-            All Campuses
-        </a>
+<div class="colleges link">
+    <div id="college_table_heading">
+        All Campuses
     </div>
     <div id="college_find">
         <div id="college_input_container">
@@ -45,9 +43,22 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
             </tr>
             <tr id="college_1" class="college_description">
                 <td colspan="2">
-                    <p>Coordinator: Ramya C. Alex
-                    <br>
-                    Assistant Coordinator: Adheena Vinod</p>
+                    <div class="college_image">
+                        <img src="../assets/campus_images/alphonsa_thiruvambady.jpg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: Alphonsa College
+                        <br>&emsp;&emsp;&emsp;&emsp;Chavalappara-Kakkunde Rd
+                        <br>&emsp;&emsp;&emsp;&emsp;Thiruvambady, Calicut
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673603
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.acttdy.com/" target="_blank">www.acttdy.com</a>
+                        <hr>
+                        <p style="text-align:center"><b>Jesus Youth</b></p>
+                        Coordinator: Ramya C. Alex
+                        <br>Assistant Coordinator: Adheena Vinod
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -62,8 +73,19 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                 <td>AWH Engineering College, Kuttikattoor</td>
             </tr>
             <tr id="college_2" class="college_description">
-                <td colspan="3">
-                    No data
+                <td colspan="2">
+                    <div class="college_image">
+                        <img src="../assets/campus_images/awh_engineering.jpg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: AWH Engineering College
+                        <br>&emsp;&emsp;&emsp;&emsp;Kuttikattoor, Calicut
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673008
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="http://awhengg.org/" target="_blank">awhengg.org</a>
+                        <hr>
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -75,11 +97,23 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                             <img src="../assets/down_arrow.png" alt="down"></img>
                     </button>
                 </td>
-                <td>Calicut University Campus, Thenjipalam</td>
+                <td>Calicut University Campus</td>
             </tr>
             <tr id="college_3" class="college_description">
                 <td colspan="2">
-                    No data
+                    <div class="college_image">
+                        <img src="../assets/campus_images/cuc.jpeg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: University of Calicut
+                        <br>&emsp;&emsp;&emsp;&emsp;Calicut University PO
+                        <br>&emsp;&emsp;&emsp;&emsp;Thenhipalam, Malappuram
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673635
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.uoc.ac.in/" target="_blank">www.uoc.ac.in</a>
+                        <hr>
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -91,11 +125,23 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <img src="../assets/down_arrow.png" alt="down"></img>
                     </button>
                 </td>
-                <td>Calicut University, Institute of Engineering and Technology, Malappuram</td>
+                <td>Calicut University, Institute of Engineering and Technology</td>
             </tr>
             <tr id="college_4" class="college_description">
                 <td colspan="2">
-                    No data
+                    <div class="college_image">
+                        <img src="../assets/campus_images/cuiet.jpg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: Calicut University
+                        <br>&emsp;&emsp;&emsp;&emsp;Kohinoor, Thenhipalam
+                        <br>&emsp;&emsp;&emsp;&emsp;Malappuram
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673636
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.cuiet.info" target="_blank">www.cuiet.info</a>
+                        <hr>
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -111,18 +157,26 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
             </tr>
             <tr id="college_5" class="college_description">
                 <td colspan="2">
-                    <p>Colleges:
-                    <br>
-                    &emsp; Kozhikode Government Medical College
-                    <br>
-                    &emsp; Kozhikode Government Dental College
-                    <br>
-                    &emsp; Kozhikode Government Pharmacy College
-                    <br>
-                    <br>
-                    Coordinator: Emil K George
-                    <br>
-                    Assistant Coordinator: Nigitha Christy</p>
+                    <div class="college_image">
+                        <img src="../assets/campus_images/gmc.jpg"></img>
+                    </div>
+                    <div class="college_details">
+                        Colleges: Government Medical College Kozhikode
+                        <br>&emsp;&emsp;&emsp;&emsp;Dental College, GMC Kozhikode
+                        <br>&emsp;&emsp;&emsp;&emsp;College of Pharmaceutical Sciences, GMC Kozhikode
+                        <br>
+                        <br>Address: Government Medical College
+                        <br>&emsp;&emsp;&emsp;&emsp;Medical College Junction, 17, Mavoor Rd,
+                        <br>&emsp;&emsp;&emsp;&emsp;near Police Station, Kozhikode
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673008
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.govtmedicalcollegekozhikode.ac.in/" target="_blank">www.govtmedicalcollegekozhikode.ac.in</a>
+                        <hr>
+                        <p style="text-align:center"><b>Jesus Youth</b></p>
+                        Coordinator: Emil K George
+                        <br>Assistant Coordinator: Nigitha Christy
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -134,11 +188,22 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <img src="../assets/down_arrow.png" alt="down"></img>
                     </button>
                 </td>
-                <td>Don Bosco College, Mampetta Rd., Mukkam</td>
+                <td>Don Bosco College Mampetta</td>
             </tr>
             <tr id="college_6" class="college_description">
                 <td colspan="2">
-                    No data
+                    <div class="college_image">
+                        <img src="../assets/campus_images/don_bosco.jpg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: Don Bosco College
+                        <br>&emsp;&emsp;&emsp;&emsp;Mampetta, Mukkam
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673602
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.dbcmampetta.ac.in/" target="_blank">www.dbcmampetta.ac.in</a>
+                        <hr>
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -150,11 +215,23 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <img src="../assets/down_arrow.png" alt="down"></img>
                     </button>
                 </td>
-                <td>Educare Institute of Dental Sciences, Chattiparamba, Malappuram</td>
+                <td>Educare - Institute of Dental Sciences</td>
             </tr>
             <tr id="college_7" class="college_description">
                 <td colspan="2">
-                    No data
+                    <div class="college_image">
+                        <img src="../assets/campus_images/educare.jpeg"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: Educare Institute of Dental Sciences
+                        <br>&emsp;&emsp;&emsp;&emsp;College Road, Kiliyamannil Campus
+                        <br>&emsp;&emsp;&emsp;&emsp;Chattiparamba, Malappuram
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 673506
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="https://www.educareinstitute.in/" target="_blank">www.educareinstitute.in</a>
+                        <hr>
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">
@@ -166,11 +243,25 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <img src="../assets/down_arrow.png" alt="down"></img>
                     </button>
                 </td>
-                <td>Fathima Arts and Science College, Muthedam, Nilambur</td>
+                <td>Fathima Arts and Science College</td>
             </tr>
             <tr id="college_8" class="college_description">
                 <td colspan="2">
-                    Contact Person: Shino
+                    <div class="college_image">
+                        <img src="../assets/campus_images/fathima_asc.png"></img>
+                    </div>
+                    <div class="college_details">
+                        Address: Fathima Arts and Science College
+                        <br>&emsp;&emsp;&emsp;&emsp;Moothedam, Nilambur
+                        <br>&emsp;&emsp;&emsp;&emsp;Malappuram
+                        <br>&emsp;&emsp;&emsp;&emsp;Kerala 679331
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Official Webite:
+                        <a href="http://www.fathimacollegemoothedam.in/" target="_blank">www.fathimacollegemoothedam.in</a>
+                        <hr>
+                        <p style="text-align:center"><b>Jesus Youth</b></p>
+                        Contact Person: Shino
+                    </div>
                 </td>
             </tr>
             <tr class="college_space">

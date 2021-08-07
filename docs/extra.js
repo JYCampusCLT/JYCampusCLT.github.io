@@ -319,9 +319,9 @@ function college_search(){
             continue;       //Don't search
         }
     
-        // Seacrh in the cell
+        // Search in the cell
         if(td){
-            var index = td.textContent.toUpperCase().indexOf(filter);
+            var index = td.innerText.toUpperCase().indexOf(filter);
             if(index > -1){    //Substring found
                 tr[i].style.display = "";       //Show that row
                 /* College descriptions come after college name.

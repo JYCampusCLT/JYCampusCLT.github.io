@@ -1,5 +1,6 @@
-$table-color: rgb(45, 88, 2);
-$button-color: rgb(65, 209, 185);
+$table-light-color: black;
+$table-dark-color: rgb(151, 151, 151);
+$button-color: rgb(11, 211, 191);
 
 // Programmes page
 .button_image{
@@ -7,7 +8,7 @@ $button-color: rgb(65, 209, 185);
         width: 90px;
     }
     .image_caption{
-        padding-left: 17px;
+        padding-left: 20px;
     }
 }
 
@@ -19,36 +20,6 @@ $button-color: rgb(65, 209, 185);
     button{
         cursor: pointer;
     }
-    #college_table_choice{
-        font-size: 0.9em;
-        #stream_buttons{
-            margin: 0;
-            padding: 5px 0;
-            #TASC{
-                padding: 0 5%;
-                display: inline;
-            }
-            #MEST{
-                padding: 0 5%;
-                display: inline;
-            }
-            button{
-                padding: 1px 5px;
-                border: 1px solid black;
-                border-radius: 5px;
-                background-color: $button-color;
-            }
-        }
-        #core_team_check{
-            padding: 2.5px 0 2.5px 5%;
-            margin: 0;
-            white-space: nowrap;
-            font-size: 0.9em;
-            input{
-                cursor: pointer;
-            }
-        }
-    }
     #college_table_heading{
         text-align: center;
         font-size: 1.2em;
@@ -57,31 +28,39 @@ $button-color: rgb(65, 209, 185);
         #college_input_container{
             display: inline;
             #college_input{
-                width: 50%;
+                width: 30%;
                 height: 1.7em;
                 border: 1px solid black;
                 border-radius: 3px;
             }
         }
-        #campus_sort_container{
-            display: inline; 
-            padding-left: 28%;
-            font: 0.8em sans-serif;
+        #TASC, #MEST, #campus_sort_container{
+            display: inline;
+            margin: 0;
             button{
-                padding: 2px 5px;
+                padding: 1px 5px;
                 border: 1px solid black;
                 border-radius: 5px;
                 background-color: $button-color;
             }
         }
+        #TASC, #MEST{
+            font-size: 0.9em;
+        }
+        #campus_sort_container{
+            font-size: 0.8em;
+            padding-top: 0.2em;
+            float: right;
+        }
     }
     #college_table_container{
+        float: left;
         #college_table{
-            border: 2px solid $table-color;
+            border: 2px solid $table-light-color;
             border-collapse: collapse;
             table-layout: fixed;
             td{
-                border: 1px solid $table-color;
+                border: 1px solid $table-light-color;
             }
             .college_name{
                 font-size: 1.2em;
@@ -93,8 +72,9 @@ $button-color: rgb(65, 209, 185);
                     padding-left: 5px;
                     padding-right: 0;
                     button{
+                        width: 20px;
                         img{
-                            width: 30px;
+                            width: 20px;
                         }
                         .arrow_up{
                             transform: rotate(-180deg);
@@ -113,10 +93,26 @@ $button-color: rgb(65, 209, 185);
             }
             .college_description{
                 font-size: 1em;
+                .college_image{
+                    float: left;
+                    max-width: 350px;
+                }
+                .college_details{
+                    float: left;
+                    padding-left: 2em;
+                    p{
+                        margin-top: 0;
+                        margin-bottom: 1em;
+                    }
+                    hr{
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
             }
             .college_space{
                 td{
-                    background-color: $table-color;
+                    background-color: $table-light-color;
                     height: 1.5px;
                     padding: 0;
                 }
@@ -125,7 +121,7 @@ $button-color: rgb(65, 209, 185);
     }
 }
 
-// Updates page
+// Campuses page, Updates page
 .link{
     a{
         color: darkgreen;
@@ -196,10 +192,28 @@ $button-color: rgb(65, 209, 185);
         }
 
         .colleges{
+            #college_table_heading{
+                color: white;
+            }
+            #college_table_container{
+                #college_table{
+                    border-color: $table-dark-color;
+                    td{
+                        border-color: $table-dark-color;
+                    }
+                    .college_space{
+                        td{
+                            background-color: $table-dark-color;
+                        }
+                    }
+                }
+            }
             #college_find{
-                #college_input{
-                    color: white;
-                    background-color: rgba(46,48,61,255);
+                #college_input_container{
+                    #college_input{
+                        border-color: lightslategray;
+                        background-color: rgb(46,48,61);
+                    }
                 }
             }
         }
@@ -209,22 +223,13 @@ $button-color: rgb(65, 209, 185);
 // When width is more than 600px
 @media screen and (min-width: 600px){
     .colleges{
-        #college_table_choice{
-            padding: 10px 0;
-            #stream_buttons{
-                padding: 12px 0;
-                display: inline;
-                border-bottom: 0;
-            }
-            #core_team_check{
-                padding-top: 12px;
-                padding-bottom: 12px;
-                padding-left: auto;
-                display: inline;
-            }
-        }
         #college_table_heading{
-            padding-bottom: 0.5em;;
+            padding-bottom: 0.5em;
+        }
+        #college_find{
+            #campus_sort_container{
+                float: right;
+            }
         }
     }
 }

@@ -3,7 +3,7 @@ var mest_state = 1;     //MEST colleges are shown
 var core_state = 0;     //Colleges without core team are also shown
 
 window.addEventListener('DOMContentLoaded',  () => {
-    if(window.location.pathname.normalize() === "/campuses/".normalize()){
+    if(window.location.pathname.normalize() === "/campuses/".normalize()){  //Campuses page
         // Don't show college descriptions on load
         var desc = document.getElementsByClassName("college_description");
         for(var i=0; i<desc.length; i++){
@@ -15,9 +15,12 @@ window.addEventListener('DOMContentLoaded',  () => {
         for(var i=0; i<arrow.length; i++){
             arrow[i].className = "arrow_down";
         }
-
-        //Disable checking
-        document.getElementById("core_team_check").getElementsByTagName("input")[0].checked= false;
+    }
+    if(window.screen.width<=1218){  //Nav bar starts opening
+        document.getElementsByClassName("md-nav__title")[0].childNodes[2].textContent="JY Kozhikode CCT";
+        if(window.screen.width<=500){  //Modify title
+            document.getElementsByClassName("md-header__title")[0].getElementsByClassName("md-ellipsis")[0].textContent="JY Kozhikode CCT";
+        }
     }
 });
 
@@ -49,22 +52,8 @@ function open_college(college){
 function tasc(){
     // Change tasc button text when clicked
     var button = document.getElementById("tasc_button");
-    if(button.getAttribute("data-text-swap")==button.innerHTML){
-        button.innerHTML = button.getAttribute("data-text-original");
-    }
-    else {
-        button.setAttribute("data-text-original", button.innerHTML);
-        button.innerHTML = button.getAttribute("data-text-swap");
-    }
+    tasc_state = button_coloring(button, tasc_state);
 
-    if(tasc_state==0){      //TASC colleges need to be shown
-        tasc_state=1;
-        button.style.color="black";
-    }
-    else{           //TASC colleges need to be hidden
-        tasc_state=0;
-        button.style.color="green";
-    }
     // Update table
     table_modify();
 }
@@ -73,24 +62,29 @@ function tasc(){
 function mest(){
     // Change mest button text when clicked
     var button = document.getElementById("mest_button");
-    if(button.getAttribute("data-text-swap")==button.innerHTML){
-        button.innerHTML = button.getAttribute("data-text-original");
-    }
-    else {
-        button.setAttribute("data-text-original", button.innerHTML);
-        button.innerHTML = button.getAttribute("data-text-swap");
-    }
+    mest_state=button_coloring(button, mest_state);
 
-    if(mest_state==0){      //MEST colleges need to be shown
-        mest_state=1;
-        button.style.color="black";
-    }
-    else{           //MEST colleges need to be hidden
-        mest_state=0;
-        button.style.color="green";
-    }
     // Update table
     table_modify();
+}
+
+function button_coloring(button, state){
+    if(state==0){
+        button.style.backgroundColor = "rgb(11, 211, 191)";
+        button.style.color = "black";
+        return 1;
+    }
+    else {
+        if(document.getElementsByTagName("body")[0].attributes[1].nodeValue==="slate"){
+            button.style.backgroundColor = "rgb(46,48,61)";
+            button.style.color = "rgb(179, 174, 165)";
+        }
+        else{
+            button.style.backgroundColor = "white";
+            button.style.color = "black";
+        }
+        return 0;
+    }
 }
 
 // When core button is pressed
@@ -325,9 +319,9 @@ function college_search(){
             continue;       //Don't search
         }
     
-        // Seacrh in the cell
+        // Search in the cell
         if(td){
-            var index = td.textContent.toUpperCase().indexOf(filter);
+            var index = td.innerText.toUpperCase().indexOf(filter);
             if(index > -1){    //Substring found
                 tr[i].style.display = "";       //Show that row
                 /* College descriptions come after college name.
