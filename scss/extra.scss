@@ -60,7 +60,7 @@ $button-color: rgb(11, 211, 191);
             border-collapse: collapse;
             table-layout: fixed;
             td{
-                border: 1px solid $table-light-color;
+                //border: 1px solid $table-light-color;
             }
             .college_name{
                 font-size: 1.2em;
@@ -199,7 +199,7 @@ $button-color: rgb(11, 211, 191);
                 #college_table{
                     border-color: $table-dark-color;
                     td{
-                        border-color: $table-dark-color;
+                        //border-color: $table-dark-color;
                     }
                     .college_space{
                         td{

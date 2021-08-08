@@ -52,9 +52,6 @@
   border-collapse: collapse;
   table-layout: fixed;
 }
-.colleges #college_table_container #college_table td {
-  border: 1px solid black;
-}
 .colleges #college_table_container #college_table .college_name {
   font-size: 1.2em;
 }
@@ -159,9 +156,6 @@
     color: white;
   }
   [data-md-color-scheme=slate] .colleges #college_table_container #college_table {
-    border-color: #979797;
-  }
-  [data-md-color-scheme=slate] .colleges #college_table_container #college_table td {
     border-color: #979797;
   }
   [data-md-color-scheme=slate] .colleges #college_table_container #college_table .college_space td {
