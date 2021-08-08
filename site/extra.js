@@ -349,6 +349,66 @@ function college_search(){
     }
 }
 
+function mmc() {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        window.location = "instagram://user?username=mmc_jesusyouth";
+    }
+    else{
+        window.open("https://www.instagram.com/mmc_jesusyouth","_blank");
+    }
+}
+
+function devagiri() {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        window.location = "instagram://user?username=devagirian_jy";
+    }
+    else{
+        window.open("https://www.instagram.com/devagirian_jy","_blank");
+    }
+}
+
+function nit(state) {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        if(state==0){       //Instagram
+            window.location = "instagram://user?username=jesusyouth_nitc";
+        }
+        else if(state==1){  //Youtube
+            window.location = "vnd.youtube://www.youtube.com/channel/UCLi_oDd0i5VtPGEX7CcrvZg";
+        }
+    }
+    else{
+        if(state==0){       //Instagram
+            window.open("https://www.instagram.com/jesusyouth_nitc","_blank");
+        }
+        else if(state==1){  //Youtube
+            window.open("https://www.youtube.com/channel/UCLi_oDd0i5VtPGEX7CcrvZg","_blank");
+        }
+    }
+}
+
+function providence(state) {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        if(state==0){       //Instagram
+            window.location = "instagram://user?username=_jesusyouthprovidonna_";
+        }
+        else if(state==1){  //Youtube
+            window.location = "vnd.youtube://www.youtube.com/channel/UCMqIDdnNXxCS6YIpI7EcsDg";
+        }
+    }
+    else{
+        if(state==0){       //Instagram
+            window.open("https://www.instagram.com/_jesusyouthprovidonna_","_blank");
+        }
+        else if(state==1){  //Youtube
+            window.open("https://www.youtube.com/channel/UCMqIDdnNXxCS6YIpI7EcsDg","_blank");
+        }
+    }
+}
+
 function instagram() {
     if( /Android/i.test(navigator.userAgent ) ) {
         // If the user is using an Android device.

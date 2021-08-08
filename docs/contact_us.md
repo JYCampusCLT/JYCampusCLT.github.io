@@ -22,7 +22,7 @@ customjs:
             <table class="logo_name">
                 <tr>
                     <td>
-                        <a href="" onclick="gmail()" title="Send mail to CCT Kozhikode">
+                        <a onclick="gmail()" title="Send mail to CCT Kozhikode">
                             <img src="/assets/gmail.png" alt="Mail" width="45px">
                         </a>
                     </td>
@@ -33,7 +33,7 @@ customjs:
             </table>
         </td>
         <td class="contact_table_details">
-            <a href="" onclick="gmail() title="Send mail to CCT Kozhikode"">cct.kozhikode@gmail.com</a>
+            <a onclick="gmail() title="Send mail to CCT Kozhikode"">cct.kozhikode@gmail.com</a>
         </td>
     </tr>
     <tr class="contact_row">
@@ -41,7 +41,7 @@ customjs:
             <table class="logo_name">
                 <tr>
                     <td>
-                        <a href="" onclick="instagram()" title="Visit Instagram page of Kozhikode Campus Ministry">
+                        <a onclick="instagram()" title="Visit Instagram page of Kozhikode Campus Ministry">
                             <img src="/assets/instagram.png" alt="Instagram" width="45px">
                         </a>
                     </td>
@@ -52,7 +52,7 @@ customjs:
             </table>
         </td>
         <td class="contact_table_details">
-            <a href="" onclick="instagram() title="Visit Instagram page of Kozhikode Campus Ministry"">jesusyouthkozhikode</a>
+            <a onclick="instagram() title="Visit Instagram page of Kozhikode Campus Ministry"">jesusyouthkozhikode</a>
         </td>
     </tr>
     <tr class="contact_row">
@@ -60,7 +60,7 @@ customjs:
             <table class="logo_name">
                 <tr>
                     <td>
-                        <a href="" onclick="youtube()" title="Subscribe to Kozhikode Campus Ministry Youtube channel">
+                        <a onclick="youtube()" title="Subscribe to Kozhikode Campus Ministry Youtube channel">
                             <img src="/assets/youtube.png" alt="Youtube" width="45px">
                         </a>
                     </td>
@@ -71,7 +71,7 @@ customjs:
             </table>
         </td>
         <td class="contact_table_details">
-            <a href="" onclick="youtube()" title="Subscribe to Kozhikode Campus Ministry Youtube channel">JY Kozhikode CCT</a>
+            <a onclick="youtube()" title="Subscribe to Kozhikode Campus Ministry Youtube channel">JY Kozhikode CCT</a>
         </td>
     </tr>
 </table>
