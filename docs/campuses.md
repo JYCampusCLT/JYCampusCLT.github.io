@@ -420,7 +420,7 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
             <tr id="college_14" class="college_description">
                 <td colspan="2">
                     <div class="college_image">
-                        <img src="../assets/campus_images/kcaet.jpg"></img>
+                        <img src="../assets/campus_images/kc_aet.jpg"></img>
                     </div>
                     <div class="college_details">
                         Address: Kelappaji College of Agricultural
