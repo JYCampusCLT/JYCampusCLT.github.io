@@ -33,7 +33,7 @@ customjs:
             </table>
         </td>
         <td class="contact_table_details">
-            <a onclick="gmail() title="Send mail to CCT Kozhikode"">cct.kozhikode@gmail.com</a>
+            <a onclick="gmail()" title="Send mail to CCT Kozhikode"">cct.kozhikode@gmail.com</a>
         </td>
     </tr>
     <tr class="contact_row">
@@ -52,7 +52,7 @@ customjs:
             </table>
         </td>
         <td class="contact_table_details">
-            <a onclick="instagram() title="Visit Instagram page of Kozhikode Campus Ministry"">jesusyouthkozhikode</a>
+            <a onclick="instagram()" title="Visit Instagram page of Kozhikode Campus Ministry"">jesusyouthkozhikode</a>
         </td>
     </tr>
     <tr class="contact_row">

@@ -4,6 +4,9 @@ hide:
     - navigation
 ---
 
+<center>
+# Updates
+</center>
 ##2021 July - December
 
 !!! info "25 July 2021 - Announcement"
