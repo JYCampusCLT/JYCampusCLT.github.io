@@ -234,7 +234,7 @@ function show_row(tr){
             If already shown also, don't do anything*/
         return;
     }
-    tr.style.display ="";
+    tr.style.display ="table-row";
 }
 
 // When sort button is pressed
@@ -274,13 +274,13 @@ function college_search(){
             }
             else if(tr[i].classList.contains("college_name")){
                 tr[i].getElementsByTagName("td")[0].getElementsByTagName("img")[0].className="arrow_down";  //Arrow is down
-                tr[i].style.display="";         //Name is shown
+                tr[i].style.display="table-row";         //Name is shown
             }
             else if(tr[i].classList.contains("college_description")){
                 tr[i].style.display="none";     //Description is hidden
             }
             else if(tr[i].classList.contains("college_space")){
-                tr[i].style.display="";         //Spacing is shown
+                tr[i].style.display="table-row";         //Spacing is shown
             }
         }
         return;
@@ -294,10 +294,10 @@ function college_search(){
                 tr[i].getElementsByTagName("td")[0].getElementsByTagName("img")[0].className="arrow_up";    //Arrow is up
             }
             else if(tr[i].classList.contains("college_description")){
-                tr[i].style.display="";         //Description is shown
+                tr[i].style.display="table-row";         //Description is shown
             }
             else if(tr[i].classList.contains("college_space")){
-                tr[i].style.display="";         //Spacing is shown
+                tr[i].style.display="table-row";         //Spacing is shown
             }
         }
     }
@@ -323,15 +323,15 @@ function college_search(){
         if(td){
             var index = td.innerText.toUpperCase().indexOf(filter);
             if(index > -1){    //Substring found
-                tr[i].style.display = "";       //Show that row
+                tr[i].style.display = "table-row";       //Show that row
                 /* College descriptions come after college name.
                 So, college name might be hidden at first if input doesn't match. We need to unhide it.*/
                 if(tr[i].classList.contains("college_description")){
-                    tr[i-1].style.display = ""; //Show corresponding name
-                    tr[i+1].style.display = ""; //Show spacing
+                    tr[i-1].style.display = "table-row"; //Show corresponding name
+                    tr[i+1].style.display = "table-row"; //Show spacing
                 }
                 else{   //College name
-                    tr[i+2].style.display = ""; //Show spacing
+                    tr[i+2].style.display = "table-row"; //Show spacing
                 }
             }
             else{   //Substring not found
@@ -412,10 +412,10 @@ function providence(state) {
 function instagram() {
     if( /Android/i.test(navigator.userAgent ) ) {
         // If the user is using an Android device.
-        window.location = "instagram://user?username=jesusyouthkozhikode";
+        window.location = "instagram://user?username=jy_kozhikode_campus_ministry";
     }
     else{
-        window.open("https://www.instagram.com/jesusyouthkozhikode","_blank");
+        window.open("https://www.instagram.com/jy_kozhikode_campus_ministry","_blank");
     }
 }
 
