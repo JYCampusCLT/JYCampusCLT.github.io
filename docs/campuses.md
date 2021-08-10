@@ -58,6 +58,11 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <p style="text-align:center"><b>Jesus Youth</b></p>
                         Coordinator: Ramya C. Alex
                         <br>Assistant Coordinator: Adheena Vinod
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Instagram:
+                        <a onclick="alphonsa()">
+                            @jy_alphonsianz
+                        </a>
                     </div>
                 </td>
             </tr>
@@ -176,6 +181,11 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <p style="text-align:center"><b>Jesus Youth</b></p>
                         Coordinator: Emil K George
                         <br>Assistant Coordinator: Nigitha Christy
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Instagram:
+                        <a onclick="cmc()">
+                            @earthly_salts
+                        </a>
                     </div>
                 </td>
             </tr>
@@ -203,6 +213,8 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         Website:
                         <a href="https://www.dbcmampetta.ac.in/" target="_blank">www.dbcmampetta.ac.in</a>
                         <hr>
+                        <p style="text-align:center"><b>Jesus Youth</b></p>
+                        Contact Person: Alfi K Jose
                     </div>
                 </td>
             </tr>
@@ -557,6 +569,11 @@ By the grace of God, there are nearly 35+ colleges in Kozhikode and Malappuram d
                         <p style="text-align:center"><b>Jesus Youth</b></p>
                         Coordinator: Ajo Thomas
                         <br>Assistant Coordinator: Agnes
+                        <hr style="height:0.5em; margin:0; border:0; visibility:hidden;">
+                        Instagram:
+                        <a onclick="lissah()">
+                            @jy_lissah
+                        </a>
                     </div>
                 </td>
             </tr>
