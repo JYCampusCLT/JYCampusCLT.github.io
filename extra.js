@@ -349,6 +349,26 @@ function college_search(){
     }
 }
 
+function alphonsa() {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        window.location = "instagram://user?username=jy_alphonsianz";
+    }
+    else{
+        window.open("https://www.instagram.com/jy_alphonsianz","_blank");
+    }
+}
+
+function cmc() {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        window.location = "instagram://user?username=earthly_salts";
+    }
+    else{
+        window.open("https://www.instagram.com/earthly_salts","_blank");
+    }
+}
+
 function mmc() {
     if( /Android/i.test(navigator.userAgent ) ) {
         // If the user is using an Android device.
@@ -359,13 +379,13 @@ function mmc() {
     }
 }
 
-function devagiri() {
+function lissah() {
     if( /Android/i.test(navigator.userAgent ) ) {
         // If the user is using an Android device.
-        window.location = "instagram://user?username=devagirian_jy";
+        window.location = "instagram://user?username=jy_lissah";
     }
     else{
-        window.open("https://www.instagram.com/devagirian_jy","_blank");
+        window.open("https://www.instagram.com/jy_lissah","_blank");
     }
 }
 
@@ -406,6 +426,16 @@ function providence(state) {
         else if(state==1){  //Youtube
             window.open("https://www.youtube.com/channel/UCMqIDdnNXxCS6YIpI7EcsDg","_blank");
         }
+    }
+}
+
+function devagiri() {
+    if( /Android/i.test(navigator.userAgent ) ) {
+        // If the user is using an Android device.
+        window.location = "instagram://user?username=devagirian_jy";
+    }
+    else{
+        window.open("https://www.instagram.com/devagirian_jy","_blank");
     }
 }
 

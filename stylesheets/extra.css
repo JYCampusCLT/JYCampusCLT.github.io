@@ -1,12 +1,10 @@
 .button_image img {
   width: 90px;
 }
-.button_image .image_caption {
-  padding-left: 20px;
-}
 
 #acts_title img {
   width: 80px;
+  transform: translate(-15%, 25%);
 }
 
 .acts_pre_program .acts_pre_program_image {
