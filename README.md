@@ -13,3 +13,7 @@
 ## Contributing
 
 If you encounter issues with the website or have fixes please raise a pull request/issue or contact the [Media Coordinator](./docs/contact_us.md).
+
+## Setting Up
+
+  pip install -r requirements.txt
